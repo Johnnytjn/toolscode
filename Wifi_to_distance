@@ -1,0 +1,3 @@
+def cal_dis_wifi(x):
+    y=  np.power(10,(20.0-int(x)-32.44-20*np.log10(2400))/20)*1000 #强度转距离
+    return y
